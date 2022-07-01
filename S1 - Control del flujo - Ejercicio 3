@@ -1,0 +1,19 @@
+Algoritmo Ejercicio3
+	Definir hora, horatotal, minutos, totalsegundos como numerico
+	Escribir "Ingrese la cantidad en horas:"
+	Leer hora
+	si hora <= 24  y hora >= 0 Entonces
+		horatotal = hora * 60 
+	sino
+		Escribir "Valor incorrecto, tiene que ser entre 0 y 24"
+	FinSi
+	
+	Escribir "Ingrese la cantidad en minutos:"
+	Leer minutos
+	Si minutos <= 60 y minutos >= 0 Entonces
+		totalsegundos= (horatotal+minutos)*60
+		Escribir "El total de segundos de las horas y minutos es de:"," ",totalsegundos," ","segundos"
+	SiNo
+		Escribir "Valor incorrecto, tiene que ser entre 0 y 60"
+	FinSi
+FinAlgoritmo
