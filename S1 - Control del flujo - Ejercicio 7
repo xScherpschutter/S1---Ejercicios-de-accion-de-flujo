@@ -1,0 +1,40 @@
+Algoritmo Ejercicio7
+	Definir peso, altura, IMC como numerica
+	Escribir "Ingrese su peso en libras:"
+	Leer peso
+	peso= peso*0.45
+	Escribir "Ingrese su altura:"
+    Leer altura
+	IMC= peso/(altura*altura)
+	si IMC <= 16 Entonces
+		Escribir "IMC de"," ",IMC,""," con criterio de ingreso"
+	SiNo
+		Si IMC >= 16 y IMC <= 19.9 Entonces
+			Escribir "IMC de"," ",IMC,""," con infresa peso"
+		SiNo
+			si IMC >= 17 y IMC <= 18.4 Entonces
+				Escribir "IMC de"," ",IMC,""," con bajo peso"
+			SiNo
+				si  IMC >= 18.5 y IMC <= 24.9 Entonces
+					Escribir "IMC de"," ",IMC,""," con peso normal"
+				SiNo
+					si IMC >= 25 y IMC <= 29.9 Entonces
+						Escribir "IMC de"," ",IMC,""," con sobrepeso"
+					SiNo
+						si IMC >= 30 y IMC <= 34.9 Entonces
+							Escribir "IMC de"," ",IMC,""," con obesidad pre-mórbida"
+						SiNo
+							si IMC >= 35 y IMC <= 45 Entonces
+								Escribir "IMC de"," ",IMC,""," con obesidad mórbida"
+							SiNo
+								si  IMC > 45 Entonces
+									Escribir "IMC de"," ",IMC,""," con obesidad híper-mórbida"
+								FinSi
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
