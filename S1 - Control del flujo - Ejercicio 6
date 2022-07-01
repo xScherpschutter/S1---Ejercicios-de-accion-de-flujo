@@ -1,0 +1,41 @@
+Algoritmo Ejercicio6
+	Definir horaEntrada,horaSalida, minutos, monto como numerico
+	
+	Escribir "Ingrese la hora de entrada del vehiculo en horario de 24 horas:"
+	Leer horaEntrada
+	Escribir "Ingrese la hora de salida del vehiculo en horario de 24 horas:"
+	Leer horaSalida
+	Escribir "Ingrese los minutos adicionales que permaneció en el estacionamiento"
+	Leer minutos
+	
+	Si horaEntrada > 0 y horaEntrada <= 24 y horaSalida > 0 y horaSalida <= 24 y minutos >= 0 y minutos <= 59 Entonces
+		
+		si minutos >= 30 Entonces
+			monto=((horaSalida-horaEntrada)*4)+2.50
+			
+		SiNo
+			monto=(horaSalida-horaEntrada)*4
+			
+		FinSi  
+		
+		si horasEntrada > 12
+			horaEntrada = horaEntrada - 12
+			Escribir "Usted ingreso a las"," ", horaEntrada," ","p.m"
+		SiNo
+			Escribir "Usted ingreso a las"," ", horaEntrada," ","a.m"
+		FinSi
+		
+		Si horaSalida > 12 Entonces
+			Horasalida = horaSalida - 12
+			Escribir "Usted salio a las"," ", horaSalida," ","p.m"
+		SiNo
+			Escribir "Usted salio a las"," ", horaSalida," ","a.m"
+		FinSi
+		
+		Escribir "Su monto total a pagar es de:"," ", monto," ","B.s"
+		
+	SiNo
+	 Escribir "Ingrese una hora correcta o en valor positivo, o los minutos en un valor positivo"		
+	 
+ FinSi
+FinAlgoritmo
