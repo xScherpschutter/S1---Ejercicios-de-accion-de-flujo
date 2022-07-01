@@ -1,0 +1,15 @@
+Algoritmo Ejercicio4
+	Definir seconds, minuto, hora, dia como numerico
+	Escribir "Ingrese el valor en segundos:"
+	Leer seconds
+	si seconds>0 Entonces
+		minuto= seconds/60
+		hora= minuto/60
+		dia= hora/24
+		Escribir "Los segundos ingresados a minutos son:" minuto
+		Escribir "Los segundos ingresados a horas son:" hora
+		Escribir "Los segundos ingresados a días son:" dia
+	SiNo
+		Escribir "El valor no es positivo." 
+	FinSi
+FinAlgoritmo
