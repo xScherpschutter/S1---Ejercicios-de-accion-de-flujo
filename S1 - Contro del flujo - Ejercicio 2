@@ -1,0 +1,19 @@
+Algoritmo Ejercicio2
+	Definir num, n1, n2, n3, n4, n5 como entero
+	Escribir "Ingrese un número de 5 dígitos:"
+	Leer num
+	si num>=10000 y num<=99999 Entonces
+		n1= trunc (num/10000) mod 10
+		n2= trunc (num/1000) mod 10
+		n3= trunc (num/100) mod 10
+		n4= trunc (num/10) mod 10
+		n5= trunc (num mod 10) mod 10
+		si n1=n5 y n2=n4 Entonces
+			Escribir "El numero"," ",num," ","es capicua"
+		SiNo
+			Escribir "El numero"," ",num," ","no es capicua"
+		FinSi
+	SiNo
+		Escribir "El número ingresado no tiene 5 digitos"
+	FinSi
+FinAlgoritmo
