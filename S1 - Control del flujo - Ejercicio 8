@@ -1,0 +1,20 @@
+Algoritmo Ejercicio8
+	Escribir "Ingrese el número del mes: "
+		Leer mes
+		
+		Mientras mes < 0 o mes > 12 Hacer
+			Escribir "Ingrese un mes correcto: "
+			Leer mes
+		Fin Mientras
+		
+	Escribir  "Ingrese el número del día : "
+		Leer dia
+		
+		Mientras dia < 0 o dia > 31 Hacer
+			Escribir  "Ingrese un dia correcto : "
+			Leer dia
+		Fin Mientras
+		
+		tiempo = (((mes - 1) * 30) + dia)
+		Escribir "Días transcurridos desde el 1 de Enero del 2014 hasta la fecha dada : ",Tiempo
+FinAlgoritmo  
