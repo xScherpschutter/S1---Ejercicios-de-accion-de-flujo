@@ -1,0 +1,35 @@
+Algoritmo Ejercicio9
+	Definir num1 como numerico
+	Escribir "Introduzca un valor número del 1 al 12"
+	Leer num1
+	Segun num1 Hacer
+		1:
+			Escribir num1," ","corresponde al mes de Enero"
+		2:
+			Escribir num1," ","corresponde al mes de Febrero"
+		3:
+			Escribir num1," ","corresponde al mes de Marzo"
+		4:
+			Escribir num1," ","corresponde al mes de Abril"
+		5:
+			Escribir num1," ","corresponde al mes de Mayo"
+		6:
+			Escribir num1," ","corresponde al mes de Junio"
+		7:
+			Escribir num1," ","corresponde al mes de Julio"
+		8:
+			Escribir num1," ","corresponde al mes de Agosto"
+		9:
+			Escribir num1," ","corresponde al mes de Septiembre"
+		10:
+			Escribir num1," ","corresponde al mes de Octubre"
+		11:
+			Escribir num1," ","corresponde al mes de Noviembre"
+		12:
+			Escribir num1," ","corresponde al mes de Diciembre"
+		
+		De Otro Modo:
+			Escribir "Introduzca valores del 1 al 12 por favor"
+	Fin Segun
+	
+FinAlgoritmo
